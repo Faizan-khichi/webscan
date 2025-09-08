@@ -20,6 +20,8 @@ def print_banner():
      ╚══╝╚══╝ ╚══════╝╚═╝  ╚═╝╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝
     """
     by_line = "                           WebDiscover by Faizan Ahmad Khichi (FAK) v2.0"
+    https://whatsapp.com/channel/0029Vb2y2umF6sn16F6Zm20k
+    https://wa.me/923418409979
     print(Fore.CYAN + banner)
     print(Fore.YELLOW + by_line + "\n")
 
