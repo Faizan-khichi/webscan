@@ -20,10 +20,14 @@ def print_banner():
      ╚══╝╚══╝ ╚══════╝╚═╝  ╚═╝╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝
     """
     by_line = "                           WebDiscover by Faizan Ahmad Khichi (FAK) v2.0"
-    https://whatsapp.com/channel/0029Vb2y2umF6sn16F6Zm20k
-    https://wa.me/923418409979
+    whatsapp_channel = "https://whatsapp.com/channel/0029Vb2y2umF6sn16F6Zm20k"
+    whatsapp_number = "https://923418409979"
+
     print(Fore.CYAN + banner)
     print(Fore.YELLOW + by_line + "\n")
+    print(Fore.GREEN + f"WhatsApp Channel: {whatsapp_channel}")
+    print(Fore.GREEN + f"WhatsApp Number: {whatsapp_number}\n")
+
 
 def print_user_manual():
     """Prints a quick user manual for interactive mode."""
@@ -37,7 +41,6 @@ def print_user_manual():
     print(f"   - {Style.BRIGHT}Custom:{Style.NORMAL}     You control all the settings.")
     print(f"\n{Fore.YELLOW}[i] During the scan, press {Style.BRIGHT}Ctrl + C{Style.NORMAL}{Fore.YELLOW} at any time to stop.")
     print(Style.BRIGHT + Fore.WHITE + "-" * 30 + "\n")
-
 def get_interactive_config():
     """Gets scan configuration from the user via prompts."""
     print_user_manual()
